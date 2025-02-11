@@ -1,0 +1,53 @@
+.links 
+    margin-bottom: 50px  
+    padding: 60px 0px 30px 0px
+    &_wrapper   
+        display: flex
+        justify-content: space-between
+        align-items: start
+    &_pic
+        width: 30px
+        height: auto
+    &_blocks
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    &_text
+        margin-top: 15px    
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        a
+            margin-top: 15px
+            color: black
+            &:hover
+                color: $main-color
+                text-decoration: none
+                transition: 0.6s all
+            &:nth-child(3)
+                margin-top: 0px
+    &_title 
+        font-size: 18px 
+        font-weight: 500
+    &_descr
+        text-align: center
+        margin-top: 15px    
+    &_logo
+        display: block
+        margin: 0 auto
+        border-style: solid
+        border-color: $main-color
+        border-radius: 100%
+        border-width: 2px
+        width: 60px
+        height: 60px
+        cursor: pointer
+        &:hover
+            background-color: $main-color
+            transition: 0.6s all
+            box-shadow: 2px 2px 20px $main-color
+        img
+            margin-left: 23%    
+            margin-top: 21%

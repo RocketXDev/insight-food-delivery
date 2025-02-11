@@ -1,0 +1,57 @@
+.main
+    &_back 
+        min-height: 760px
+        background: url(../img/main.jpg) center (center / cover) no-repeat
+    &_white
+        display: flex
+        justify-content: center
+        align-items: center
+        padding-top: 80px
+    img
+        position: absolute
+        z-index: 2
+        width: 500px
+        height: 380px 
+        display: block
+        margin: 0 auto  
+    &_square
+        position: relative
+        z-index: 1 
+        width: 500px
+        height: 300px 
+        background-color: rgba(255, 255, 255, 0.7)
+    h1
+        text-align: center
+        margin-top: 80px
+        color: rgba(174,133,79, 1 )
+        font-weight: 700  
+        text-transform: uppercase
+    .btn   
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-top: 90px
+        border-radius: 20px
+        a
+            display: block
+            margin-right: 50px
+            &:last-child
+                margin-right: 0px
+        &_main
+            border-radius: 20px
+            border: none
+            width: 250px
+            margin-right: 50px  
+            color: white
+            text-transform: uppercase
+            &:last-child
+                margin-right: 0px
+            &:hover
+                background-color: white
+                color: $main-color  
+                transition: 0.7s all
+                
+
+
+
+
